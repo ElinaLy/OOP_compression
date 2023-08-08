@@ -30,4 +30,5 @@ public:
 	void virtual decompress( vector<int> &output_code) = 0;
 };
 
-Архивация реализована тремя алгоритмами: LZW, LZ78, Huffman. В class_compression рассмотрены примеры применения этих способов архивации.
+Архивация реализована тремя алгоритмами: LZW, LZ78, Huffman.
+В class_compression рассмотрены примеры применения этих способов архивации.
