@@ -14,7 +14,7 @@
 	
 	void decompress(ArchInterface& interface); //деархивация
 	
-У класса Accumulator есть также методы 
+У класса Accumulator есть также методы: 
         void addData(unsigned int uIntNumber, float floatNumber, unsigned short UShortNumber); // добавление информации
 
 	string getAccumulatedData(); //получение исходных данных
@@ -23,7 +23,7 @@
 
 
 Интерфейс :
-class ArchInterface {
+:class ArchInterface {
 public:
 
 	void virtual compress(string s1, vector<int> &output_code) = 0;
